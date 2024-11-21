@@ -76,4 +76,3 @@ def pokemon_game():  # Define the main function for the game.
         if player_health <= 0:
             print("\nYour health dropped to 0. The computer wins!")  # Announce the computer's victory.
             break  # Exit the loop since the game is over.
-
