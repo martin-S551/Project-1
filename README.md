@@ -19,7 +19,6 @@ while player_health > 0 and computer_health > 0:
     print("2. Power Strike")
     print("3. Heal")
 
-    try:
         # Ask the player to choose a move (1, 2, or 3).
         move = int(input("Enter 1, 2, or 3: "))
     except ValueError:  # Handle invalid input (if the player enters something that's not a number).
