@@ -45,7 +45,7 @@ while player_health > 0 and computer_health > 0:
 
     # Check if the computer's health has dropped to 0 or below.
     if computer_health <= 0:
-        print("\nThe computer's health dropped to 0. You win!")  # Announce the player's victory.
+        print("\nThe computer fainted. You win!")  # Announce the player's victory.
         break  # Exit the loop since the game is over.
 
     # Computer's turn to make a move.
@@ -71,5 +71,5 @@ while player_health > 0 and computer_health > 0:
 
     # Check if the player's health has dropped to 0 or below.
     if player_health <= 0:
-        print("\nYour health dropped to 0. The computer wins!")  # Announce the computer's victory.
+        print("\nYou fainted. The computer wins!")  # Announce the computer's victory.
         break  # Exit the loop since the game is over.
